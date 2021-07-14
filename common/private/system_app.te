@@ -16,4 +16,4 @@ allow system_app fod_res_file:file create_file_perms;
 set_prop(system_app, powerusage_provider_prop)
 
 # Allow Settings to set legacy wfd videomode prop
-set_prop(system_app, wfd_legacy_video_mode_prop);
+set_prop(system_app, exported_system_prop);
